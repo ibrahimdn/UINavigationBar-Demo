@@ -13,6 +13,11 @@
 		5F6B8ED622C4E897001809B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B8ED422C4E897001809B9 /* Main.storyboard */; };
 		5F6B8ED822C4E898001809B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B8ED722C4E898001809B9 /* Assets.xcassets */; };
 		5F6B8EDB22C4E898001809B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B8ED922C4E898001809B9 /* LaunchScreen.storyboard */; };
+		5F6B8EE322C4E8DE001809B9 /* sub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B8EE222C4E8DE001809B9 /* sub.storyboard */; };
+		5F6B8EE522C4E96C001809B9 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B8EE422C4E96C001809B9 /* thirdViewController.swift */; };
+		5F6B8EE722C4E98B001809B9 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B8EE622C4E98B001809B9 /* SubViewController.swift */; };
+		5F6B8EE922C4EA6E001809B9 /* sub2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B8EE822C4EA6E001809B9 /* sub2.storyboard */; };
+		5F6B8EEB22C4EA88001809B9 /* Sub2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B8EEA22C4EA88001809B9 /* Sub2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		5F6B8ED722C4E898001809B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F6B8EDA22C4E898001809B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F6B8EDC22C4E898001809B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6B8EE222C4E8DE001809B9 /* sub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sub.storyboard; sourceTree = "<group>"; };
+		5F6B8EE422C4E96C001809B9 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		5F6B8EE622C4E98B001809B9 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		5F6B8EE822C4EA6E001809B9 /* sub2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sub2.storyboard; sourceTree = "<group>"; };
+		5F6B8EEA22C4EA88001809B9 /* Sub2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sub2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				5F6B8ED722C4E898001809B9 /* Assets.xcassets */,
 				5F6B8ED922C4E898001809B9 /* LaunchScreen.storyboard */,
 				5F6B8EDC22C4E898001809B9 /* Info.plist */,
+				5F6B8EE222C4E8DE001809B9 /* sub.storyboard */,
+				5F6B8EE422C4E96C001809B9 /* thirdViewController.swift */,
+				5F6B8EE622C4E98B001809B9 /* SubViewController.swift */,
+				5F6B8EE822C4EA6E001809B9 /* sub2.storyboard */,
+				5F6B8EEA22C4EA88001809B9 /* Sub2ViewController.swift */,
 			);
 			path = navigation.Demo;
 			sourceTree = "<group>";
@@ -127,7 +142,9 @@
 			files = (
 				5F6B8EDB22C4E898001809B9 /* LaunchScreen.storyboard in Resources */,
 				5F6B8ED822C4E898001809B9 /* Assets.xcassets in Resources */,
+				5F6B8EE922C4EA6E001809B9 /* sub2.storyboard in Resources */,
 				5F6B8ED622C4E897001809B9 /* Main.storyboard in Resources */,
+				5F6B8EE322C4E8DE001809B9 /* sub.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6B8EEB22C4EA88001809B9 /* Sub2ViewController.swift in Sources */,
 				5F6B8ED322C4E897001809B9 /* SecondViewController.swift in Sources */,
 				5F6B8ECF22C4E897001809B9 /* AppDelegate.swift in Sources */,
+				5F6B8EE722C4E98B001809B9 /* SubViewController.swift in Sources */,
+				5F6B8EE522C4E96C001809B9 /* thirdViewController.swift in Sources */,
 				5F6B8ED122C4E897001809B9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
