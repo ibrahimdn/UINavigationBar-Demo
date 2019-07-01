@@ -36,7 +36,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="giD-sx-ohs" kind="push" id="Awj-nv-lJU"/>
+                                    <segue destination="giD-sx-ohs" kind="show" id="Awj-nv-lJU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,7 +62,21 @@
                     <view key="view" contentMode="scaleToFill" id="Uxj-hr-4dJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tabbar Sub0 View Controller " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTV-by-oRb">
+                                <rect key="frame" x="20" y="271" width="374" height="376"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VTV-by-oRb" firstAttribute="top" secondItem="kd2-xU-16a" secondAttribute="top" constant="183" id="708-6v-Nkv"/>
+                            <constraint firstItem="VTV-by-oRb" firstAttribute="leading" secondItem="kd2-xU-16a" secondAttribute="leading" constant="20" id="lBq-1H-tZB"/>
+                            <constraint firstItem="kd2-xU-16a" firstAttribute="trailing" secondItem="VTV-by-oRb" secondAttribute="trailing" constant="20" id="tMl-dz-QdT"/>
+                            <constraint firstItem="kd2-xU-16a" firstAttribute="bottom" secondItem="VTV-by-oRb" secondAttribute="bottom" constant="166" id="w27-CM-9MF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="kd2-xU-16a"/>
                     </view>
                     <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="OZa-kU-tfX"/>
@@ -97,7 +111,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="cso-nG-Hm9" kind="push" id="6fP-1R-lZQ"/>
+                                    <segue destination="cso-nG-Hm9" kind="show" id="6fP-1R-lZQ"/>
                                 </connections>
                             </button>
                         </subviews>
